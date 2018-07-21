@@ -1,4 +1,4 @@
-## koa2项目模板
+# koa2项目模板
 
 - 使用`TypeScript`
 - 使用`koa-router`进行路由管理
@@ -18,7 +18,9 @@ npm i
 
 npm run tsc:w // 开启ts watch模式
 
-npm run start:dev // 开启自动更新服务器
+npm run start:dev // 开启自动重启服务器(需要nodemon)
 
 npm run test // 测试
+
+npm run tsc // 构建项目
 ```

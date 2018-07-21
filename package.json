@@ -7,7 +7,8 @@
     "test": "jest --forceExit --coverage --verbose --detectOpenHandles --forceExit",
     "watch-test": "npm run test -- --watchAll",
     "tsc:w": "tsc -w",
-    "start:dev": "nodemon ./dist/app.js"
+    "start:dev": "nodemon ./dist/app.js",
+    "tsc": "tsc"
   },
   "author": "liushuangbill",
   "license": "MIT",
