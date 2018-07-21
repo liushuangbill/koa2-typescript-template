@@ -1,0 +1,34 @@
+{
+  "name": "blog-server-koa",
+  "version": "1.0.0",
+  "description": "koa blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --forceExit --coverage --verbose --detectOpenHandles --forceExit",
+    "watch-test": "npm run test -- --watchAll",
+    "tsc:w": "tsc -w",
+    "start:dev": "nodemon ./dist/app.js"
+  },
+  "author": "liushuangbill",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-router": "^7.4.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/supertest": "^2.0.5",
+    "@types/dotenv": "^4.0.3",
+    "@types/koa": "^2.0.46",
+    "@types/koa-bodyparser": "^5.0.1",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-router": "^7.0.30",
+    "jest": "^23.4.1",
+    "supertest": "^3.1.0",
+    "ts-jest": "^23.0.1",
+    "typescript": "^2.9.2"
+  }
+}
