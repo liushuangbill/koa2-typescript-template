@@ -1,5 +1,6 @@
-## 使用typescript的koa2项目模板
+## koa2项目模板
 
+- 使用`TypeScript`
 - 使用`koa-router`进行路由管理
 - 使用`jest` + `supertest`进行测试
 - 使用`winston`记录日志
