@@ -6,7 +6,7 @@
   "author": "liushuang <liushuangbill@outlook.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "tsc -w & nodemon ./dist/index.js",
+    "dev": "tsc -w & nodemon ./dist",
     "build": "tsc",
     "start": "node ./dist/index.js"
   },
