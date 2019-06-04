@@ -1,35 +1,32 @@
 {
-  "name": "blog-server-koa",
-  "version": "1.0.0",
-  "description": "koa blog",
+  "name": "koa2-typescript-template",
+  "version": "0.0.1",
+  "description": "a koa2 typescript template",
   "main": "index.js",
-  "scripts": {
-    "test": "jest --forceExit --coverage --verbose --detectOpenHandles --forceExit",
-    "watch-test": "npm run test -- --watchAll",
-    "tsc:w": "tsc -w",
-    "start:dev": "nodemon ./dist/app.js",
-    "tsc": "tsc"
-  },
-  "author": "liushuangbill",
+  "author": "liushuang <liushuangbill@outlook.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "tsc -w & nodemon ./dist/index.js",
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
   "dependencies": {
-    "dotenv": "^6.0.0",
-    "koa": "^2.5.2",
-    "koa-bodyparser": "^4.2.1",
-    "koa-json": "^2.0.2",
-    "koa-router": "^7.4.0",
-    "winston": "^3.0.0"
+    "dotenv": "8.0.0",
+    "koa": "2.7.0",
+    "koa-router": "7.4.0"
   },
   "devDependencies": {
-    "@types/supertest": "^2.0.5",
-    "@types/dotenv": "^4.0.3",
-    "@types/koa": "^2.0.46",
-    "@types/koa-bodyparser": "^5.0.1",
-    "@types/koa-json": "^2.0.18",
-    "@types/koa-router": "^7.0.30",
-    "jest": "^23.4.1",
-    "supertest": "^3.1.0",
-    "ts-jest": "^23.0.1",
-    "typescript": "^2.9.2"
+    "@types/koa": "2.0.48",
+    "@types/koa-router": "7.0.40",
+    "@typescript-eslint/eslint-plugin": "1.9.0",
+    "@typescript-eslint/parser": "1.9.0",
+    "eslint": "5.16.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.17.3",
+    "eslint-plugin-node": "9.1.0",
+    "eslint-plugin-promise": "4.1.1",
+    "eslint-plugin-standard": "4.0.0",
+    "nodemon": "1.19.1",
+    "typescript": "3.5.1"
   }
 }
